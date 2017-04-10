@@ -14,6 +14,13 @@
 		A1605A111E8A02390031649E /* StudentDirectory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1605A0F1E8A02390031649E /* StudentDirectory.xcdatamodeld */; };
 		A1605A131E8A02390031649E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1605A121E8A02390031649E /* Assets.xcassets */; };
 		A1605A161E8A02390031649E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1605A141E8A02390031649E /* LaunchScreen.storyboard */; };
+		A1605A2C1E8A44A10031649E /* CoreDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1605A2B1E8A44A10031649E /* CoreDateManager.m */; };
+		A1C765D41E8CA1CE0083D964 /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C765CD1E8CA1CE0083D964 /* Student+CoreDataClass.m */; };
+		A1C765D51E8CA1CE0083D964 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C765CF1E8CA1CE0083D964 /* Student+CoreDataProperties.m */; };
+		A1C765D61E8CA1CE0083D964 /* Teacher+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C765D11E8CA1CE0083D964 /* Teacher+CoreDataClass.m */; };
+		A1C765D71E8CA1CE0083D964 /* Teacher+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C765D31E8CA1CE0083D964 /* Teacher+CoreDataProperties.m */; };
+		A1E1F0061E8B5B8A00FBD813 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1F0051E8B5B8A00FBD813 /* TeacherViewController.m */; };
+		A1E1F0091E8BA02200FBD813 /* StudentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1F0081E8BA02200FBD813 /* StudentDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,20 @@
 		A1605A121E8A02390031649E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1605A151E8A02390031649E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1605A171E8A02390031649E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1605A2A1E8A44A10031649E /* CoreDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDateManager.h; sourceTree = "<group>"; };
+		A1605A2B1E8A44A10031649E /* CoreDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDateManager.m; sourceTree = "<group>"; };
+		A1C765CC1E8CA1CE0083D964 /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		A1C765CD1E8CA1CE0083D964 /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		A1C765CE1E8CA1CE0083D964 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A1C765CF1E8CA1CE0083D964 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A1C765D01E8CA1CE0083D964 /* Teacher+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataClass.h"; sourceTree = "<group>"; };
+		A1C765D11E8CA1CE0083D964 /* Teacher+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataClass.m"; sourceTree = "<group>"; };
+		A1C765D21E8CA1CE0083D964 /* Teacher+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A1C765D31E8CA1CE0083D964 /* Teacher+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A1E1F0041E8B5B8A00FBD813 /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		A1E1F0051E8B5B8A00FBD813 /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
+		A1E1F0071E8BA02200FBD813 /* StudentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDetailViewController.h; sourceTree = "<group>"; };
+		A1E1F0081E8BA02200FBD813 /* StudentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +65,7 @@
 		A16059F71E8A02380031649E = {
 			isa = PBXGroup;
 			children = (
+				A1605A291E8A356E0031649E /* CoreData Classes */,
 				A1605A021E8A02380031649E /* StudentDirectory */,
 				A1605A011E8A02380031649E /* Products */,
 			);
@@ -62,9 +84,15 @@
 			children = (
 				A1605A061E8A02380031649E /* AppDelegate.h */,
 				A1605A071E8A02380031649E /* AppDelegate.m */,
+				A1605A2A1E8A44A10031649E /* CoreDateManager.h */,
+				A1605A2B1E8A44A10031649E /* CoreDateManager.m */,
 				A1605A091E8A02380031649E /* ViewController.h */,
 				A1605A0A1E8A02380031649E /* ViewController.m */,
 				A1605A0C1E8A02390031649E /* Main.storyboard */,
+				A1E1F0071E8BA02200FBD813 /* StudentDetailViewController.h */,
+				A1E1F0081E8BA02200FBD813 /* StudentDetailViewController.m */,
+				A1E1F0041E8B5B8A00FBD813 /* TeacherViewController.h */,
+				A1E1F0051E8B5B8A00FBD813 /* TeacherViewController.m */,
 				A1605A121E8A02390031649E /* Assets.xcassets */,
 				A1605A141E8A02390031649E /* LaunchScreen.storyboard */,
 				A1605A171E8A02390031649E /* Info.plist */,
@@ -80,6 +108,21 @@
 				A1605A041E8A02380031649E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1605A291E8A356E0031649E /* CoreData Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1C765CC1E8CA1CE0083D964 /* Student+CoreDataClass.h */,
+				A1C765CD1E8CA1CE0083D964 /* Student+CoreDataClass.m */,
+				A1C765CE1E8CA1CE0083D964 /* Student+CoreDataProperties.h */,
+				A1C765CF1E8CA1CE0083D964 /* Student+CoreDataProperties.m */,
+				A1C765D01E8CA1CE0083D964 /* Teacher+CoreDataClass.h */,
+				A1C765D11E8CA1CE0083D964 /* Teacher+CoreDataClass.m */,
+				A1C765D21E8CA1CE0083D964 /* Teacher+CoreDataProperties.h */,
+				A1C765D31E8CA1CE0083D964 /* Teacher+CoreDataProperties.m */,
+			);
+			name = "CoreData Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +201,13 @@
 				A1605A111E8A02390031649E /* StudentDirectory.xcdatamodeld in Sources */,
 				A1605A081E8A02380031649E /* AppDelegate.m in Sources */,
 				A1605A051E8A02380031649E /* main.m in Sources */,
+				A1C765D61E8CA1CE0083D964 /* Teacher+CoreDataClass.m in Sources */,
+				A1C765D51E8CA1CE0083D964 /* Student+CoreDataProperties.m in Sources */,
+				A1605A2C1E8A44A10031649E /* CoreDateManager.m in Sources */,
+				A1C765D41E8CA1CE0083D964 /* Student+CoreDataClass.m in Sources */,
+				A1E1F0091E8BA02200FBD813 /* StudentDetailViewController.m in Sources */,
+				A1E1F0061E8B5B8A00FBD813 /* TeacherViewController.m in Sources */,
+				A1C765D71E8CA1CE0083D964 /* Teacher+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +366,7 @@
 				A1605A1C1E8A02390031649E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

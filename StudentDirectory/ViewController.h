@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Teacher+CoreDataClass.h"
+#import <CoreData/CoreData.h>
 @interface ViewController : UIViewController
-
-
+@property(nonatomic, strong)Teacher *currentTeacher;
 @end
 
